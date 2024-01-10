@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&family=Poppins:wght@400;500;600;700&family=Red+Hat+Display:wght@500;700;900&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body{
+  height: 100vh;
+  width: 100%;
+  background-image: url(./images/bg-intro-desktop.png);
+  background-color: #ff7978;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  display: grid;
+  place-items: center;
+  
+}
+.container{
+  width: 80vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left{
+  flex-basis: 50%;
+  padding-left: 30px;
+}
+.heading {
+  line-height: 38px;
+  width: 30vw;
+  color: white;
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 5%;
+}
+.paragraph{
+  width: 31vw;
+  color: white;
+  font-size: 13px;
+}
+
+.right{
+ 
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.top button{
+  font-family: "Poppins", sans-serif;
+  width: 30vw;
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+  background-color:hsl(248, 32%, 49%) ;
+  margin-bottom: 2%;
+  font-size: 14px;
+  cursor: pointer;
+  border: none;
+  text-align: center;
+  box-shadow: 2px 7px 2px 0px #0000006b;
+}
+
+.days{
+  font-weight: 700;
+}
+.form{
+  background-color: white;
+  width: 30vw;
+  box-shadow: 2px 7px 2px 0px #0000006b;
+  border-radius: 5px;
+  text-align: center;
+  }
+input{
+  border: 1px solid hsl(246, 25%, 77%);
+  border-radius: 5px;
+  width: 26vw;
+  height: 40px;
+  margin-bottom: 3%;
+  padding-left: 20px;
+}
+#fname{
+  margin-top:5% ;
+}
+.claim button{
+  font-family: "Poppins", sans-serif;
+  border: none;
+  background-color:hsl(154, 59%, 51%);
+  width: 26vw;
+  height: 40px;
+  margin-left: 2vw;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-size: 13px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+}
+.claim button:hover{
+  background-color: hsl(154, 49%, 68%);
+}
+
+.bottom{
+  font-size: 8px;
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+  margin-bottom:7% ;
+}
+.terms{
+  color: hsl(246, 25%, 77%);
+}
+.services{
+  color: red;
+  font-weight: 600;
+  margin-left: 2px;
+}
